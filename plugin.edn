@@ -2,5 +2,5 @@
  :version "0.0.1"
  :author "Konrad Kuźnicki"
  :source "https://github.com/kuznicki-me/lighttable-mpc"
- :desc "MPD Client"
+ :desc "Simple shell based MPD Client"
  :behaviors "mpc.behaviors"}
