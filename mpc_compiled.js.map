@@ -2,9 +2,16 @@
  "file":"compiled.map",
  "sources":
  ["src/lt/plugins/mpc.cljs"],
- "lineCount":22,
+ "lineCount":92,
  "mappings":
- ";AAAA;;;;;;;;;;AAQA;;;2BAAA,yBAAA,pDAAMA,+CAEHC,KACD,qDAAA,2CAAA,2DAAA,MAAA,qDAAA,/MAACC,4BAAQC,oLACoBF;;AAI/B,kCAAA,2CAAA,2DAAA,wFAAA,qDAAA,YAAA,jSAACG,sVAEmB,mCAAA,nCAACJ;AAErB,kCAAA,2CAAA,2DAAA,0FAAA,qDAAA,aAAA,pSAACI,yVAEmB,mCAAA,nCAACJ;AAErB,kCAAA,2CAAA,2DAAA,4FAAA,qDAAA,cAAA,vSAACI,4VAEmB,mCAAA,nCAACJ;AAErB,kCAAA,2CAAA,2DAAA,wFAAA,qDAAA,YAAA,jSAACI,sVAEmB,mCAAA,nCAACJ;AAErB,kCAAA,2CAAA,2DAAA,wFAAA,qDAAA,YAAA,jSAACI,sVAEmB,mCAAA,nCAACJ",
+ ";AAAA;;;;;;;;;;AAQA;;;;2BAAA,3BAAMA;0CAAN,NAEMC,MACJ,qDAAA,2CAAA,2DAAA,MAAA,1JAACC,4BAAQC,mLACeF;;;IAFpBA;EAAAA;qCAAAA;;;IAAAA;2BAAAA;;;;;;AAKN;;;wBAAA,oBAAA,5CAAOG,yCAEJC,GACD,mCAAA,5BAACC,6CAEA,eAAA,sBAAYD;;AAGf;;;wBAAA,wBAAA,hDAAOE,yCAEJC,OACD,2OAAA,vOAAMC,YAAU,AAACC,yBAAKF,WAChBG,YAAU,AAACP,gCAAOK,eAClBG,OAAU,eAAA,uBAAaH,yBACvBI,QAAU,AAACb,mCAAUS,WACzB,yCAAA,2CAAA,qEAAA,0DAAA,5MAACK,wIACWH,+DACAC,0DACAC;;AAEhB,uBAAA,kBAAA,zCAAME,yCAEJ,IAAAC,YAAA,AAAAC,wBAAA,mFAAA,qDAAA,uDAAA,qDAAA,yDAAA,qDAAA,kEAAAC,cAAA,SAAAC,cAAA,MAAAC,UAAA;AAAA,AAAA,GAAA,AAAA,CAAAA,UAAAD;CAAA,YAAA,AAAAE,yBAAAH,YAAAE,SAAA,AAAA,tDAAQZ,sDACN,AAACD,gCAAOC;AADV;cAAAQ;cAAAE;cAAAC;cAAA,CAAAC,UAAA;;;;;;;;CAAA,IAAAE,qBAAA,AAAAL,wBAAAD,WAAA,AAAA,GAAAM;CAAA,AAAA,IAAAN,gBAAAM,mBAAA,AAAA,GAAA,AAAAC,uCAAAP;CAAA,IAAAQ,kBAAA,AAAAC,gCAAAT,eAAA,AAAA;cAAA,AAAAU,+BAAAV;cAAAQ;cAAA,AAAAG,0BAAAH;cAAA;;;;;;;;CAAA,YAAA,AAAAI,0BAAAZ,eAAA,AAAA,jDAAQR,iDACN,AAACD,gCAAOC;AADV;cAAA,AAAAqB,yBAAAb;cAAA;cAAA;cAAA;;;;;;;;;CAAA;;;;;;AAIF,AAACD",
  "names":
- ["lt.plugins.mpc/shell-mpc", "cmd", "cljs.core/partial",
-  "lt.objs.proc/exec", "lt.objs.command/command"]}
+ ["lt.plugins.mpc/shell-mpc", "cmds", "cljs.core/partial",
+  "lt.objs.proc/exec", "lt.plugins.mpc/mk-key", "n",
+  "cljs.core/keyword", "lt.plugins.mpc/mk-cmd", "kywrd", "str-kywrd",
+  "cljs.core/name", "new-kywrd", "desc", "shell",
+  "lt.objs.command/command", "lt.plugins.mpc/main-", "seq__8398",
+  "cljs.core/seq", "chunk__8399", "count__8400", "i__8401",
+  "cljs.core/-nth", "temp__4092__auto__", "cljs.core/chunked-seq?",
+  "c__7497__auto__", "cljs.core/chunk-first", "cljs.core/chunk-rest",
+  "cljs.core/count", "cljs.core/first", "cljs.core/next"]}

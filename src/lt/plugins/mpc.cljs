@@ -8,28 +8,36 @@
 
 (defn shell-mpc
   "Pass commands to shell mpc"
-  [cmd]
+  [ & cmds ]
   (partial proc/exec
-    {:command "mpc" :args #js [cmd]}))
+    {:command "mpc" :args cmds}))
 
 
+(defn- mk-key
+  "Make local keyword from string"
+  [n]
+  (keyword
+   "lt.plugins.mpc"
+   (str "mpc-" n)))
 
-(cmd/command {:command ::mpc-play
-              :desc "mpc: play"
-              :exec (shell-mpc "play")})
 
-(cmd/command {:command ::mpc-pause
-              :desc "mpc: pause"
-              :exec (shell-mpc "pause")})
+(defn- mk-cmd
+  "Make LT commad that is visible "
+  [kywrd]
+  (let [str-kywrd (name kywrd)
+        new-kywrd (mk-key str-kywrd)
+        desc      (str "mpc: " str-kywrd)
+        shell     (shell-mpc str-kywrd)]
+    (cmd/command
+     {:command  new-kywrd
+      :desc     desc
+      :exec     shell})))
 
-(cmd/command {:command ::mpc-toggle
-              :desc "mpc: toggle"
-              :exec (shell-mpc "toggle")})
+(defn main- []
+  ; make LT command for those keywords
+  (doseq [kywrd [:play :pause :stop :toggle :next :prev]]
+    (mk-cmd kywrd)))
 
-(cmd/command {:command ::mpc-next
-              :desc "mpc: next"
-              :exec (shell-mpc "next")})
 
-(cmd/command {:command ::mpc-prev
-              :desc "mpc: prev"
-              :exec (shell-mpc "prev")})
+(main-)
+
