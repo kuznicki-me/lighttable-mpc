@@ -27,9 +27,9 @@ var cmds = null;if (arguments.length > 1) {
   cmds = cljs.core.array_seq(Array.prototype.slice.call(arguments, 1),0);} 
 return shell_mpc__delegate.call(this,mpc_path,cmds);};
 shell_mpc.cljs$lang$maxFixedArity = 1;
-shell_mpc.cljs$lang$applyTo = (function (arglist__8481){
-var mpc_path = cljs.core.first(arglist__8481);
-var cmds = cljs.core.rest(arglist__8481);
+shell_mpc.cljs$lang$applyTo = (function (arglist__8213){
+var mpc_path = cljs.core.first(arglist__8213);
+var cmds = cljs.core.rest(arglist__8213);
 return shell_mpc__delegate(mpc_path,cmds);
 });
 shell_mpc.cljs$core$IFn$_invoke$arity$variadic = shell_mpc__delegate;
@@ -39,52 +39,52 @@ return shell_mpc;
 /**
 * Make local keyword from string
 */
-lt.plugins.mpc.mk_key = (function mk_key(n){return cljs.core.keyword.call(null,[cljs.core.str(lt.plugins.mpc._STAR_ns_STAR_)].join(''),[cljs.core.str("mpc-"),cljs.core.str(n)].join(''));
+lt.plugins.mpc.mk_key = (function mk_key(n){return cljs.core.keyword.call(null,"lt.plugins.mpc",[cljs.core.str("mpc-"),cljs.core.str(n)].join(''));
 });
 /**
 * Make LT commad that is visible for LT
 */
 lt.plugins.mpc.mk_cmd = (function mk_cmd(mpc_path,kywrd){var str_kywrd = cljs.core.name.call(null,kywrd);var new_kywrd = lt.plugins.mpc.mk_key.call(null,str_kywrd);var desc = [cljs.core.str("mpc: "),cljs.core.str(str_kywrd)].join('');var shell = lt.plugins.mpc.shell_mpc.call(null,mpc_path,str_kywrd);return lt.objs.command.command.call(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"command","command",1964298941),new_kywrd,new cljs.core.Keyword(null,"desc","desc",1016984067),desc,new cljs.core.Keyword(null,"exec","exec",1017031683),shell], null));
 });
-lt.plugins.mpc.__BEH__mpc_init = (function __BEH__mpc_init(this$,mpc_path,commands){var seq__8477 = cljs.core.seq.call(null,commands);var chunk__8478 = null;var count__8479 = 0;var i__8480 = 0;while(true){
-if((i__8480 < count__8479))
-{var kywrd = cljs.core._nth.call(null,chunk__8478,i__8480);lt.plugins.mpc.mk_cmd.call(null,mpc_path,kywrd);
+lt.plugins.mpc.__BEH__mpc_init = (function __BEH__mpc_init(this$,mpc_path,commands){var seq__8199 = cljs.core.seq.call(null,commands);var chunk__8200 = null;var count__8201 = 0;var i__8202 = 0;while(true){
+if((i__8202 < count__8201))
+{var kywrd = cljs.core._nth.call(null,chunk__8200,i__8202);lt.plugins.mpc.mk_cmd.call(null,mpc_path,kywrd);
 {
-var G__8482 = seq__8477;
-var G__8483 = chunk__8478;
-var G__8484 = count__8479;
-var G__8485 = (i__8480 + 1);
-seq__8477 = G__8482;
-chunk__8478 = G__8483;
-count__8479 = G__8484;
-i__8480 = G__8485;
+var G__8214 = seq__8199;
+var G__8215 = chunk__8200;
+var G__8216 = count__8201;
+var G__8217 = (i__8202 + 1);
+seq__8199 = G__8214;
+chunk__8200 = G__8215;
+count__8201 = G__8216;
+i__8202 = G__8217;
 continue;
 }
 } else
-{var temp__4092__auto__ = cljs.core.seq.call(null,seq__8477);if(temp__4092__auto__)
-{var seq__8477__$1 = temp__4092__auto__;if(cljs.core.chunked_seq_QMARK_.call(null,seq__8477__$1))
-{var c__7497__auto__ = cljs.core.chunk_first.call(null,seq__8477__$1);{
-var G__8486 = cljs.core.chunk_rest.call(null,seq__8477__$1);
-var G__8487 = c__7497__auto__;
-var G__8488 = cljs.core.count.call(null,c__7497__auto__);
-var G__8489 = 0;
-seq__8477 = G__8486;
-chunk__8478 = G__8487;
-count__8479 = G__8488;
-i__8480 = G__8489;
+{var temp__4092__auto__ = cljs.core.seq.call(null,seq__8199);if(temp__4092__auto__)
+{var seq__8199__$1 = temp__4092__auto__;if(cljs.core.chunked_seq_QMARK_.call(null,seq__8199__$1))
+{var c__7497__auto__ = cljs.core.chunk_first.call(null,seq__8199__$1);{
+var G__8218 = cljs.core.chunk_rest.call(null,seq__8199__$1);
+var G__8219 = c__7497__auto__;
+var G__8220 = cljs.core.count.call(null,c__7497__auto__);
+var G__8221 = 0;
+seq__8199 = G__8218;
+chunk__8200 = G__8219;
+count__8201 = G__8220;
+i__8202 = G__8221;
 continue;
 }
 } else
-{var kywrd = cljs.core.first.call(null,seq__8477__$1);lt.plugins.mpc.mk_cmd.call(null,mpc_path,kywrd);
+{var kywrd = cljs.core.first.call(null,seq__8199__$1);lt.plugins.mpc.mk_cmd.call(null,mpc_path,kywrd);
 {
-var G__8490 = cljs.core.next.call(null,seq__8477__$1);
-var G__8491 = null;
-var G__8492 = 0;
-var G__8493 = 0;
-seq__8477 = G__8490;
-chunk__8478 = G__8491;
-count__8479 = G__8492;
-i__8480 = G__8493;
+var G__8222 = cljs.core.next.call(null,seq__8199__$1);
+var G__8223 = null;
+var G__8224 = 0;
+var G__8225 = 0;
+seq__8199 = G__8222;
+chunk__8200 = G__8223;
+count__8201 = G__8224;
+i__8202 = G__8225;
 continue;
 }
 }

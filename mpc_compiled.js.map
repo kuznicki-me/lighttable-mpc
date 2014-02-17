@@ -1,21 +1,22 @@
 {"version":3,
- "file":"compiled.map",
+ "file":
+ "compiled.map",
  "sources":
  ["src/lt/plugins/mpc.cljs"],
  "lineCount":99,
  "mappings":
- "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",
+ ";AAAA;;;;;;;;;;;;AAUA,AAAA,AAAAA,4CAAA,+CAAA,VAG0BE,IAAIC,MACR,OAACC,wCAAiB,AAAWD;;AAJnD,AAAAF,mCAAA,kGAAA,6DAAAD,0CAAA,qDAAA,6CAAA,6DAAA,iFAAA;AAOA,AAAKK,+BACH,AAACC,2BACA,iCAAA,kGAAA,qDAAA,mFAAA,+EAAA,8DAAA,mFAAA,3eAACC;AAOJ;;;;2BAAA,3BAAMC;mDAAN,fAEIC,SAAWC,MACb,qDAAA,2CAAA,oEAAA,0DAAA,vNAACC,4BAAQC,wHACGH,8DACAC,wDACAL;;0BAJVI;IAAWC;EAAAA;qCAAXD,SAAWC;;;IAAXD;IAAWC;2BAAXD,SAAWC;;;;;;AAQf;;;wBAAA,oBAAA,5CAAOG,yCAEJC,GACD,mCAAA,5BAACC,6CAAyB,eAAA,sBAAYD;;AAIxC;;;wBAAA,iCAAA,zDAAOE,yCAEJP,SAASQ,OACV,oPAAA,hPAAMC,YAAU,AAACC,yBAAKF,WAChBG,YAAU,AAACP,gCAAOK,eAClBG,OAAU,eAAA,uBAAaH,yBACvBI,QAAU,AAACd,mCAAUC,SAASS,WAClC,yCAAA,2CAAA,qEAAA,0DAAA,5MAACK,wIACWH,+DACAC,0DACAC;;AAIhB,AAAA,AAAAE,iCAAA,mDAAA,zBAGyBC,MAAKhB,SAASiB,UACjB,IAAAC,YAAA,AAAAC,sCAAAC,cAAA,SAAAC,cAAA,MAAAC,UAAA,nEAAcL;AAAd,AAAA,GAAA,AAAA,CAAAK,UAAAD;CAAA,YAAA,AAAAE,yBAAAH,YAAAE,SAAA,AAAA,tDAAQd,sDACN,AAACD,gCAAOP,SAASQ;AADnB;cAAAU;cAAAE;cAAAC;cAAA,CAAAC,UAAA;;;;;;;;CAAA,IAAAE,qBAAA,AAAAL,wBAAAD,WAAA,AAAA,GAAAM;CAAA,AAAA,IAAAN,gBAAAM,mBAAA,AAAA,GAAA,AAAAC,uCAAAP;CAAA,IAAAQ,kBAAA,AAAAC,gCAAAT,eAAA,AAAA;cAAA,AAAAU,+BAAAV;cAAAQ;cAAA,AAAAG,0BAAAH;cAAA;;;;;;;;CAAA,YAAA,AAAAI,0BAAAZ,eAAA,AAAA,jDAAQV,iDACN,AAACD,gCAAOP,SAASQ;AADnB;cAAA,AAAAuB,yBAAAb;cAAA;cAAA;cAAA;;;;;;;;;CAAA;;;;;;AAJtB,AAAA1B,mCAAA,wFAAA,6DAAAuB,+BAAA,qDAAA,+GAAA,6DAAA,iFAAA",
  "names":
  ["lt.plugins.mpc/__BEH__shell-mpc__DOT__out", "lt.object/behavior*",
   "obj", "data", "lt.objs.notifos/set-msg!",
   "lt.plugins.mpc/shell-mpc-out", "lt.object/create",
   "lt.object/object*", "lt.plugins.mpc/shell-mpc", "mpc-path", "cmds",
   "cljs.core/partial", "lt.objs.proc/exec", "lt.plugins.mpc/mk-key",
-  "n", "cljs.core/keyword", "lt.plugins.mpc/*ns*",
-  "lt.plugins.mpc/mk-cmd", "kywrd", "str-kywrd", "cljs.core/name",
-  "new-kywrd", "desc", "shell", "lt.objs.command/command",
-  "lt.plugins.mpc/__BEH__mpc-init", "this", "commands", "seq__8477",
-  "cljs.core/seq", "chunk__8478", "count__8479", "i__8480",
-  "cljs.core/-nth", "temp__4092__auto__", "cljs.core/chunked-seq?",
-  "c__7497__auto__", "cljs.core/chunk-first", "cljs.core/chunk-rest",
-  "cljs.core/count", "cljs.core/first", "cljs.core/next"]}
+  "n", "cljs.core/keyword", "lt.plugins.mpc/mk-cmd", "kywrd",
+  "str-kywrd", "cljs.core/name", "new-kywrd", "desc", "shell",
+  "lt.objs.command/command", "lt.plugins.mpc/__BEH__mpc-init", "this",
+  "commands", "seq__8199", "cljs.core/seq", "chunk__8200",
+  "count__8201", "i__8202", "cljs.core/-nth", "temp__4092__auto__",
+  "cljs.core/chunked-seq?", "c__7497__auto__", "cljs.core/chunk-first",
+  "cljs.core/chunk-rest", "cljs.core/count", "cljs.core/first",
+  "cljs.core/next"]}

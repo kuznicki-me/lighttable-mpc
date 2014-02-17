@@ -37,7 +37,7 @@
 (defn- mk-key
   "Make local keyword from string"
   [n]
-  (keyword (str *ns*) (str "mpc-" n)))
+  (keyword "lt.plugins.mpc" (str "mpc-" n)))
 
 
 
